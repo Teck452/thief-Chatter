@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void Play() // Load's the game scene
     {
-        SceneManager.LoadScene("TestEnvironment");
+        SceneManager.LoadScene("Dungeon");
     }
 
     public void Quit() // Quit's the application
