@@ -45,4 +45,20 @@ public class PlayerMovement : MonoBehaviour
             velocity.y = -2f;
         }
     }
+
+    private void OnTriggerEnter (Collider other)
+    {
+        if (other.GetComponent<Collider>().CompareTag("Death1"))
+        {
+            Destroy(gameObject);
+
+            FindObjectOfType<AudioManager>().Play("Death1");
+        }
+        if (other.GetComponent<Collider>().CompareTag("Death2"))
+        {
+            Destroy(gameObject);
+
+            FindObjectOfType<AudioManager>().Play("Death2");
+        }
+    }
 }

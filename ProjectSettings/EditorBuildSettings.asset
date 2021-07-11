@@ -11,10 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CreditsMenu.unity
     guid: a712c5804946a3c478ca1356bc3f3007
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TestEnvironment.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/VictoryScreen.unity
     guid: 630a60f2828e0d44598e2d1fa8ce117f
+  - enabled: 1
+    path: Assets/Scenes/Dungeon.unity
+    guid: 922df3e4810bdd644b0125b63a129571
   m_configObjects: {}
