@@ -18,6 +18,7 @@ public class TabToMainMenu : MonoBehaviour
         {
             Time.timeScale = 1f;
             SceneManager.LoadScene("MainMenu");
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 }
